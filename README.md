@@ -2,65 +2,68 @@
 ## 1. Install Required Packages: 
 updates the local package index
 ![image](https://github.com/user-attachments/assets/0e881fa5-2818-471e-afb1-ab64e002f81d)
-
-![image](https://github.com/user-attachments/assets/ab400300-02bf-4192-8ed2-ac7c54c4fd3e)
 Install Apache, MySQL, and PHP on the Linux machine.
-![image](https://github.com/user-attachments/assets/272db837-8f78-437e-8556-c07b906e53d4)
+![image](https://github.com/user-attachments/assets/1051e654-3a76-4fb7-b653-3fe73f200fa2)
 ## 2. Configure Apache: 
 enabling Apache to start with the OS, starting it, and ensuring it's running.
-![image](https://github.com/user-attachments/assets/7b49596c-55ed-4970-9772-c328ade1b868)
+![image](https://github.com/user-attachments/assets/ef7e4a5e-92cb-4ae0-8aed-ac6494201a9f)
 Test that Apache working.
-![image](https://github.com/user-attachments/assets/01eaf2d5-e40a-4e5a-a5e9-62b12f102205)
+![image](https://github.com/user-attachments/assets/5a3f5913-ed3e-433e-83ab-006f8dfbb065)
 enabling MySQL to start with the OS, starting it, and ensuring it's running.
-![image](https://github.com/user-attachments/assets/d9b85258-4eef-4939-ab7e-3b2cd86a5fcb)
+![image](https://github.com/user-attachments/assets/f9181002-8b0f-4895-b223-c773604ab061)
 
 
 git my machine's ip to test from host's browser
-![image](https://github.com/user-attachments/assets/1ebd5f5a-165a-40ea-9b5a-707bf204b827)
+![image](https://github.com/user-attachments/assets/b61426ec-a3f9-4a0c-8561-b1d49503db75)
 
 
 ## 3. Create a Simple Website: 
 Replace index.html with a PHP file (e.g. index.php) that displays "Hello World!". 
-![image](https://github.com/user-attachments/assets/3a369e55-e29c-4124-a1b9-a49b186c9a87)
+![image](https://github.com/user-attachments/assets/c7bfa3da-821e-40bb-a8a9-7699a71d4d87)
 
 edit configration file to set priorety to open index.php first
-![image](https://github.com/user-attachments/assets/6bcc58cc-b4df-4f1a-ab7b-517bf75ef47b)
-![image](https://github.com/user-attachments/assets/8390d441-ad41-422b-a5e3-9a04728d6609)
+![image](https://github.com/user-attachments/assets/f4b15671-8786-4ed4-b751-246b5f5e9ed4)
+![image](https://github.com/user-attachments/assets/fafe1893-672b-40ef-920a-bfd2a274249d)
+
 
 reload Apachce configuration file and Verify
-![image](https://github.com/user-attachments/assets/11c0ad40-df9a-4dae-83f5-942b61365e72)
+![image](https://github.com/user-attachments/assets/0a7b4bb2-8a40-40d6-a7aa-5df60ef4dfba)
 
 ## 4. Configure MySQL:
 Secure the MySQL installation (mysql_secure_installation or similar).
-![image](https://github.com/user-attachments/assets/4b726780-b889-4d2a-b230-c8f257fa8f3f)
+![image](https://github.com/user-attachments/assets/7de122f9-1e6e-453c-b2ec-291738a8b9f4)
 Create a new database (e.g. web_db) and a new MySQL user with a password.
-![image](https://github.com/user-attachments/assets/ced07785-81fc-4bec-9c2c-19a2e5cdb7e5)
+![image](https://github.com/user-attachments/assets/56ea9047-8fa9-4fb6-b1bc-2d035e879648)
 
 
 ## 5. Modify the Website to Use the Database: 
 Update your index.php to connect to MySQL to Display a message that includes the visitor's IP address and the current time. 
-![image](https://github.com/user-attachments/assets/9687860e-4f44-40d8-8b3f-85557a3d4c28)
-![image](https://github.com/user-attachments/assets/afcfa573-ba1c-47ac-9799-be1b9875f934)
+![image](https://github.com/user-attachments/assets/9fd8a271-42b4-4cb8-b6bb-73fea2bdc6d8)
+![image](https://github.com/user-attachments/assets/c2426e38-cb22-44e4-b077-b4e667a43969)
+
+
+
 
 ## 6. Testing Locally: 
 Access the website and verify
-![Screenshot (1307)](https://github.com/user-attachments/assets/89448145-16a2-40dc-8b57-e1d9569627fb)
-![image](https://github.com/user-attachments/assets/f944838e-d3ed-498a-986e-194442a7a87a)
+![image](https://github.com/user-attachments/assets/267e09c0-dd07-4adc-8b3b-b9d2be52e7e5)
+![image](https://github.com/user-attachments/assets/1ee3a007-3109-40ea-b09a-213dd442ca67)
+
 
 
 ## 7. Make the Website Publicly Accessible Through a Cloud Provider: 
 edit security group on aws  to allow inbound HTTP (port 80) and HTTPS (port 443) traffic
-![image](https://github.com/user-attachments/assets/5d9346e9-da97-4947-876a-b3a47ea5af6f)
-![image](https://github.com/user-attachments/assets/20c249ac-8fdb-4bd5-bca6-0b05ee023b7b)
+![image](https://github.com/user-attachments/assets/dc124e9d-d654-480d-b64a-fe6d174f20d2)
+![image](https://github.com/user-attachments/assets/22f126d5-35c2-4760-b3b6-5c2bff30a977)
 To reserve a domain name through DNS, I would purchase it from Route 53 on AWS or from a site like GoDaddy. Then, I would link the domain to my public IP address by creating an A record in the DNS settings. Once configured, I provide the users with my domain name or link to access the website.
 
 # Sub-task #2: Git & GitHub 
 
 ## 1. Initialize Git Locally: 
-![image](https://github.com/user-attachments/assets/000eaf47-884d-4549-8ec0-485fcfcfca4e)
+![image](https://github.com/user-attachments/assets/6a96da05-034b-4640-9b27-680a879349dc)
 
 ## 2. Create a .gitignore File: 
-![image](https://github.com/user-attachments/assets/9d52ff64-7249-4994-92e5-77846b13f871)
+![image](https://github.com/user-attachments/assets/6d042b94-eddf-472e-bc1d-3b9eec7aa184)
 
 # Sub-task #3: Networking Basics 
 ## 1. IP Address: What it is and its purpose in networking.
