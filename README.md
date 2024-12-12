@@ -1,7 +1,7 @@
 # Sub-task #1: Linux Server Simulation (LAMP Setup) 
 ## 1. Install Required Packages: 
 updates the local package index
-<img src="https://github.com/user-attachments/assets/ab400300-02bf-4192-8ed2-ac7c54c4fd3e">
+<img src="https://github.com/user-attachments/assets/ab400300-02bf-4192-8ed2-ac7c54c4fd3e.png">
 
 ![image](https://github.com/user-attachments/assets/ab400300-02bf-4192-8ed2-ac7c54c4fd3e)
 Install Apache, MySQL, and PHP on the Linux machine.
