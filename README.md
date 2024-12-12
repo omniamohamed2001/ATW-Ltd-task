@@ -60,7 +60,7 @@ edit security group on aws  to allow inbound HTTP (port 80) and HTTPS (port 443)
 ## 2. Create a .gitignore File: 
 ![image](https://github.com/user-attachments/assets/9d52ff64-7249-4994-92e5-77846b13f871)
 
-###Sub-task #3: Networking Basics 
+### Sub-task #3: Networking Basics 
 ## 1. IP Address: What it is and its purpose in networking.
 IP Address: is a unique numerical identifier assigned to every device connected to a network.
 While communication, Router need IP address to forward data.
@@ -69,7 +69,17 @@ While communication, Router need IP address to forward data.
 MAC Address: MAC Address operates in the data link layer  ,While Ip Address operates in the network layer.
 While communication, Switch needs MAC address to forward data, Router need IP address to forward data.
 
-
 ## 3. Switches, Routers, and Routing Protocols: Basic definitions and their roles in a network. 
+Switches: Primarily handle data forwarding within a single network (LAN), using MAC addresses to direct dataو Operates at Layer 2 (Data Link).
+Routers: Connect different networks (including LANs to WANs or the internet) and determine the best route for data to travel using IP addressesو Operates at Layer 3 (Network).
+Routing Protocols: Rules used by routers to exchange information and determine the best paths. Allow routers to automatically update their routing tables for efficient data forwarding, such as OSPF Protocol.
+
 ## 4. Remote Connection to Cloud Instance: Steps you would take to connect to your cloud-based Linux instance from a remote machine (e.g., using SSH). 
-create 
+1. Prepare Your SSH Key Pair
+In AWS: You can create a key pair when launching an instance via the AWS Management Console.
+The SSH key pair consists of:
+Private Key: Stored on your local machine (kept secure).
+Public Key: Uploaded to the cloud provider, and placed in the instance’s ~/.ssh/authorized_keys file.
+2. Download the Private Key
+After creating the SSH key pair, download the private key file to your local machine.
+AWS typically provides a .pem file for the private key.
