@@ -38,6 +38,7 @@ Create a new database (e.g. web_db) and a new MySQL user with a password.
 
 ## 5. Modify the Website to Use the Database: 
 Update your index.php to connect to MySQL to Display a message that includes the visitor's IP address and the current time. 
+
 ![image](https://github.com/user-attachments/assets/9fd8a271-42b4-4cb8-b6bb-73fea2bdc6d8)
 ![image](https://github.com/user-attachments/assets/c2426e38-cb22-44e4-b077-b4e667a43969)
 
